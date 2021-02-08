@@ -1,0 +1,246 @@
+html, body, * {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.header__white-text {
+  width: 100%;
+  background-color: white;
+  padding: 10px 20px 8px;
+  z-index: 11;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: 1px 1px 7px 1px black;
+          box-shadow: 1px 1px 7px 1px black;
+}
+
+.header__centered-text {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header__hover:hover {
+  padding: 3px;
+  border-radius: 6px;
+  background-color: grey;
+}
+
+.header___black-bg {
+  background-color: grey;
+  padding: 5px 12px;
+  color: wheat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 7px;
+  text-transform: uppercase;
+}
+
+.content {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.project {
+  padding-bottom: 22px;
+  margin: 70px auto 20px;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+.images {
+  margin: 30px auto 20px;
+}
+
+.image {
+  position: relative;
+  margin: 15px auto 12px;
+}
+
+.image__summer, .brick_house, .renovated, .barn_house, .brick_house2 {
+  width: 100%;
+  height: 100%;
+}
+
+.image__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image--black-bg {
+  background-color: black;
+  color: wheat;
+  padding: 0 5px 9px;
+  text-transform: capitalize;
+}
+
+.main {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.about {
+  margin: 80px auto 20px;
+}
+
+.about__header {
+  margin: 18px auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #9e9b9b;
+}
+
+.about__text {
+  text-indent: 20px;
+}
+
+.founders {
+  margin: 46px 0 10px;
+}
+
+.ceo__founder-image {
+  width: 100%;
+  height: 100%;
+}
+
+.ceo__founder-name {
+  margin: 14px 0;
+}
+
+.john-doe {
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+.ceo__heading4 {
+  margin: 10px 0 12px;
+}
+
+.ceo-and-founder {
+  opacity: .4;
+}
+
+.ceo__text {
+  font-size: .9em;
+}
+
+.ceo__contact {
+  margin: 13px 0;
+  background-color: #ece7e7;
+  text-align: center;
+  padding: 6px 0 4px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.ceo__contact:hover {
+  background-color: grey;
+}
+
+.ceo__link {
+  text-decoration: none;
+  display: block;
+}
+
+.ceo__upperc {
+  color: black;
+  text-transform: uppercase;
+}
+
+.contacts {
+  width: 90%;
+  margin: 20px auto;
+}
+
+input, button {
+  width: 100%;
+  height: 100%;
+  padding: 7px 12px;
+  border: 1px solid black;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+}
+
+.input__white-text {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  height: 40px;
+  width: 120px;
+  font-size: 1.2em;
+  line-height: 40px;
+  border-radius: 7px;
+}
+
+.input__name, .input__email, .input__subject {
+  margin: 12px 0;
+  border: none;
+}
+
+.input__submit {
+  margin: 20px 0;
+}
+
+.map-image {
+  margin: 22px 0 -4px;
+  position: relative;
+}
+
+.image--chicago {
+  width: 100%;
+  height: 100%;
+  opacity: .7;
+}
+
+.map__chicago {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  color: black;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #424141;
+}
+
+.footer__copyright {
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+/*# sourceMappingURL=BR.css.map */
